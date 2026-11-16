@@ -1,0 +1,180 @@
+// Français (langue par défaut, servie à la racine "/").
+// Dans les titres, *texte* est mis en rouge.
+
+export default {
+  lang: "fr", dir: "ltr", locale: "fr_FR", short: "FR", name: "Français",
+
+  ui: {
+    skip: "Aller au contenu",
+    openMenu: "Ouvrir le menu", closeMenu: "Fermer le menu",
+    mainNav: "Navigation principale", mobileNav: "Menu mobile", crumbs: "Fil d'Ariane", langNav: "Langue", changeLang: "Changer de langue",
+    home: "Accueil", solutions: "Solutions", overview: "Solutions sûreté", overviewShort: "Toute la gamme",
+    showroom: "ShowRoom", contact: "Nous contacter", call: "Appeler",
+    footerAbout: "Distribution et intégration de solutions de sécurité électronique en Mauritanie.",
+    footerContact: "Contact", rights: "Tous droits réservés.", location: "Nouakchott · Mauritanie",
+    discover: "Découvrir", allRange: "Toute la gamme", otherSolutions: "Nos autres solutions",
+    keyPoints: "Points clés", requestQuote: "Demander un devis", solution: "Solution",
+    newTab: "(nouvel onglet)", directions: "Itinéraire", openMaps: "Ouvrir dans Google Maps",
+    address: "Adresse", phone: "Téléphone", tapToCall: "Touchez pour appeler",
+    mapTitle: "Carte : HISEC, Zone des Ambassades, Nouakchott",
+    wallLabel: "Aperçu de nos solutions", statusLabel: "HISEC en bref",
+    showroomCam: "Zone des Ambassades",
+    cam3dLabel: "Caméra de surveillance HISEC en 3D qui suit le pointeur",
+    cam3dLoading: "Connexion à la caméra…",
+  },
+
+  address: { line1: "Lot 11, Zone des Ambassades", line2: "Tevragh-Zeïna, Nouakchott", country: "Mauritanie" },
+
+  band: {
+    eyebrow: "Un projet de sécurité ?",
+    title: "Parlons de votre site.",
+    text: "Décrivez-nous le lieu à protéger : nous vous orientons vers la solution adaptée et préparons votre devis.",
+    callUs: "Appelez-nous",
+    visit: "Visiter le showroom",
+  },
+
+  home: {
+    title: "HISEC | Sécurité électronique à Nouakchott, Mauritanie",
+    desc: "HISEC distribue et intègre des systèmes de vidéosurveillance, contrôle d'accès, détection d'intrusion et d'incendie en Mauritanie depuis près de 13 ans.",
+    eyebrow: "Nouakchott · Mauritanie",
+    h1: ["Systèmes de sécurité", "électronique,", "de la porte *au périmètre.*"],
+    lead: "HISEC distribue et intègre la vidéosurveillance, le contrôle d'accès, la détection d'intrusion et d'incendie, des résidences jusqu'aux sites sensibles.",
+    cta: "Voir les solutions",
+    status: [
+      `<strong><span data-count="13">13</span> ans</strong> d'expérience`,
+      `<strong>Leader</strong> de la sécurité en Mauritanie`,
+      `<strong><span data-count="7">7</span> gammes</strong> de solutions`,
+      `<strong>Showroom</strong> Zone des Ambassades`,
+    ],
+    aboutEyebrow: "Qui sommes-nous",
+    statement: "HISEC est une société spécialisée dans la *distribution et l'intégration* de solutions de sécurité électronique.",
+    about: [
+      "Contrôle d'accès, vidéosurveillance, détection d'intrusion et d'incendie : forte d'une expérience de près de 13 ans, HISEC est leader sur le marché de la sécurité en Mauritanie.",
+      "Toutes nos solutions sont conçues pour votre commodité et votre sécurité.",
+    ],
+    qualities: ["Polyvalentes", "Très fiables", "Économiques"],
+    solEyebrow: "Solutions sûreté",
+    solTitle: "Sept gammes pour protéger personnes, biens et bâtiments",
+    scHint: "Faites défiler pour découvrir",
+    scLabel: "Vitrine 3D de nos sept gammes",
+    showEyebrow: "ShowRoom",
+    showTitle: "Venez voir nos équipements en showroom",
+    showText: "Notre showroom de Tevragh-Zeïna présente nos gammes de vidéosurveillance, de contrôle d'accès, d'intrusion et d'incendie. Nos équipes vous y accueillent pour étudier votre projet.",
+    showAlt: "Façade du bâtiment HISEC High Security, Zone des Ambassades à Nouakchott",
+    showLink: "Plan d'accès et itinéraire",
+  },
+
+  overview: {
+    title: "Solutions sûreté | HISEC",
+    desc: "Toutes les solutions de sécurité électronique HISEC : incendie, interphonie, vidéosurveillance, contrôle d'accès, câbles, intrusion et haute sécurité.",
+    h1: ["Une gamme complète,", "*un seul interlocuteur.*"],
+    lead: "HISEC est spécialisée dans la distribution et l'intégration de solutions de sécurité électronique. Nos systèmes sont polyvalents, très fiables et économiques.",
+  },
+
+  showroom: {
+    title: "ShowRoom | HISEC Nouakchott",
+    desc: "Visitez le showroom HISEC, Lot 11, Zone des Ambassades, Tevragh-Zeïna, Nouakchott. Tél. +222 45 25 56 90.",
+    h1: ["Nos équipements,", "*en vrai.*"],
+    lead: "Venez découvrir nos gammes dans notre showroom de la Zone des Ambassades et échanger avec nos équipes sur votre projet.",
+    camLabel: "Tevragh-Zeïna",
+  },
+
+  contact: {
+    title: "Nous contacter | HISEC",
+    desc: "Contactez HISEC pour un devis ou une visite : +222 45 25 56 90, Lot 11, Zone des Ambassades, Tevragh-Zeïna, Nouakchott.",
+    h1: ["Parlons de la sécurité", "*de votre site.*"],
+    lead: "Appelez-nous pour un devis, un conseil ou une visite technique, ou passez directement au showroom.",
+    prepTitle: "Pour un devis plus rapide, précisez :",
+    prep: [
+      "le type de site (résidence, bureaux, entrepôt, site industriel…)",
+      "la ou les solutions qui vous intéressent",
+      "le nombre approximatif de caméras, portes ou zones",
+      "l'équipement déjà en place, s'il existe",
+    ],
+  },
+
+  notFound: {
+    title: "Page introuvable | HISEC",
+    desc: "Cette page n'existe pas ou a été déplacée.",
+    eyebrow: "Erreur 404 · Signal perdu",
+    h1: ["Cette page est introuvable."],
+    lead: "Elle a peut-être été déplacée. Reprenez depuis l'accueil ou consultez nos solutions.",
+    back: "Retour à l'accueil",
+    see: "Voir les solutions",
+  },
+
+  solutions: {
+    incendie: {
+      name: "Sécurité incendie", h1: "Sécurité incendie",
+      short: "Détection certifiée, du SSI de catégorie 1 jusqu'au DAAF.",
+      desc: "Produits de détection incendie certifiés, du SSI de catégorie 1 jusqu'au DAAF, économes en énergie et simples à mettre en œuvre.",
+      lead: "HISEC vous garantit des produits de détection incendie certifiés, efficaces, durables et simples à intégrer, du SSI de catégorie 1 jusqu'au DAAF.",
+      paras: [
+        "Nos produits sont économes en énergie et en matière première, réduisant significativement l'impact environnemental de la gamme, et donc de vos installations.",
+        "La simplicité et la technicité de nos produits vous garantissent la facilité de mise en œuvre avec une économie de moyens.",
+      ],
+      points: ["Produits de détection certifiés", "Du SSI de catégorie 1 jusqu'au DAAF", "Économes en énergie et en matière première", "Mise en œuvre simple, économie de moyens"],
+      alt: "Déclencheur manuel d'alarme incendie rouge devant un départ de feu",
+    },
+    interphonie: {
+      name: "Interphonie", h1: "Interphonie",
+      short: "Moniteurs intérieurs pour résidences, entreprises et communautés.",
+      desc: "Interphonie vidéo pour résidences, entreprises et communautés, intégrable à des détecteurs PIR, de fumée et des boutons d'alerte.",
+      lead: "La solution se compose de moniteurs intérieurs pouvant répondre à différents types d'applications, des résidences aux entreprises en passant par les communautés.",
+      paras: ["Ses nombreuses fonctionnalités permettent de l'intégrer à des détecteurs de mouvement PIR, des détecteurs de fumée, des détecteurs de portes et fenêtres et des boutons d'alerte."],
+      points: ["Résidences, entreprises et communautés", "Intégration de détecteurs de mouvement PIR", "Détecteurs de fumée, de portes et de fenêtres", "Boutons d'alerte"],
+      alt: "Portier vidéo extérieur et moniteur intérieur",
+    },
+    video: {
+      name: "Vidéosurveillance", h1: "Systèmes de vidéoprotection",
+      short: "Caméras, dômes IP et analogiques, enregistreurs et analyse de scènes.",
+      desc: "Caméras, dômes IP et analogiques, enregistreurs numériques et réseau, analyse de scènes et gestion vidéo.",
+      lead: "La fiabilité et l'intégrité de nos systèmes vidéo vous permettent de résoudre en toute confiance vos problèmes de sécurité, actuels ou futurs.",
+      paras: [
+        "Nos solutions englobent les caméras, les dômes IP et analogiques, les enregistreurs vidéo numériques et réseau, les solutions logicielles d'analyse de scènes et les systèmes de gestion vidéo sophistiqués.",
+        "Nous utilisons la technologie de vidéoprotection numérique la plus récente. Nos caméras offrent une clarté et une définition d'image exceptionnelles, et nos systèmes permettent une migration facile de l'analogique vers l'IP.",
+      ],
+      points: ["Caméras et dômes IP ou analogiques", "Enregistreurs vidéo numériques et réseau", "Logiciels d'analyse de scènes", "Migration facile de l'analogique vers l'IP"],
+      alt: "Caméras de vidéosurveillance devant une installation industrielle en image thermique",
+    },
+    acces: {
+      name: "Contrôle d'accès", h1: "Systèmes de contrôle d'accès",
+      short: "D'une seule porte à des milliers de points, sur un ou plusieurs sites.",
+      desc: "Du contrôle d'accès d'une seule porte aux systèmes intégrés gérant des milliers de portes et de points de détection.",
+      lead: "Notre gamme de produits va du contrôle d'accès pour une seule porte et du contrôle d'accès autonome hébergé sur le web à des systèmes intégrés capables de gérer des milliers de portes et de points de détection dans le monde entier.",
+      paras: [],
+      points: ["Contrôle d'accès pour une seule porte", "Contrôle d'accès autonome hébergé sur le web", "Systèmes intégrés multi-sites", "Des milliers de portes et de points de détection"],
+      alt: "Main composant un code sur le clavier d'accès d'une porte",
+    },
+    cables: {
+      name: "Câbles et accessoires", h1: "Câbles et accessoires",
+      short: "Câbles, connecteurs et électronique de conversion fiables.",
+      desc: "Câbles, connecteurs et électronique de conversion pour que la connectique ne soit plus le maillon faible de vos installations.",
+      lead: "Réactivité, technicité et loyauté sont nos valeurs d'entreprise. Nous les transposons également dans nos produits, avec une offre transparente et en constant développement, pour que les câbles, connecteurs et électroniques de conversion ne soient plus les maillons faibles de vos installations.",
+      paras: [],
+      points: ["Câbles", "Connecteurs", "Électronique de conversion", "Offre transparente, en constant développement"],
+      alt: "Faisceau de câbles électriques de différentes couleurs",
+    },
+    intrusion: {
+      name: "Intrusion", h1: "Détection d'intrusion",
+      short: "Alarmes, centrales et détection périmétrique, filaire ou sans fil.",
+      desc: "Alarmes anti-intrusion, centrales, détecteurs et détection périmétrique, en version filaire, sans fil ou hybride.",
+      lead: "Nos systèmes emploient les technologies les plus récentes : systèmes d'alarme anti-intrusion, centrales d'alarme, détecteurs de mouvement, mais aussi des solutions de sécurité totalement intégrées anti-intrusion et contrôle d'accès.",
+      paras: [
+        "Ils comportent aussi des dispositifs de protection environnementale et des personnes, des produits de détection périmétrique, y compris des détecteurs de bris de glace, sismiques et de chocs.",
+        "Certains de nos systèmes sont conçus de manière modulaire et disposent de différentes options de communication : vous pouvez donc les adapter à vos besoins précis. Vous avez le choix entre des solutions filaires, sans fil ou hybrides. Nous avons développé des produits sans fil fiables conçus pour la télésurveillance ainsi que des centrales d'alarme hybrides flexibles.",
+      ],
+      points: ["Systèmes d'alarme et centrales", "Détecteurs de mouvement, bris de glace, sismiques et chocs", "Solutions filaires, sans fil ou hybrides", "Produits sans fil conçus pour la télésurveillance"],
+      alt: "Centrales d'alarme et détecteurs d'intrusion devant une galerie commerciale",
+    },
+    haute: {
+      name: "Haute sécurité", h1: "Haute sécurité",
+      short: "Barrières, bornes et obstacles escamotables pour sites sensibles.",
+      desc: "Barrières de sécurité, bornes et obstacles escamotables pour sites militaires, industriels et gouvernementaux.",
+      lead: "Certains sites, tels que les installations militaires, industrielles ou gouvernementales, requièrent un niveau de sécurité accru.",
+      paras: ["Pour répondre à de telles exigences, HISEC vous propose des barrières de sécurité, une gamme de bornes et d'obstacles escamotables qui permettent de fermer strictement un site, tout en autorisant de manière sélective le passage de certains véhicules."],
+      points: ["Barrières de sécurité", "Bornes et obstacles escamotables", "Passage sélectif des véhicules", "Sites militaires, industriels et gouvernementaux"],
+      alt: "Barrières levantes, tourniquets et sas de sécurité",
+    },
+  },
+};

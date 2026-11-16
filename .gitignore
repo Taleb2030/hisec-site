@@ -1,0 +1,13 @@
+# dependencies & build output
+node_modules/
+dist/
+
+# generated pages (rebuilt from content/ by scripts/generate.mjs on dev/build)
+/*.html
+/en/
+/ar/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

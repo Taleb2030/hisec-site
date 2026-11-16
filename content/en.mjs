@@ -1,0 +1,180 @@
+// English, served at "/en/".
+// In headings, *text* is highlighted in red.
+
+export default {
+  lang: "en", dir: "ltr", locale: "en_GB", short: "EN", name: "English",
+
+  ui: {
+    skip: "Skip to content",
+    openMenu: "Open menu", closeMenu: "Close menu",
+    mainNav: "Main navigation", mobileNav: "Mobile menu", crumbs: "Breadcrumb", langNav: "Language", changeLang: "Change language",
+    home: "Home", solutions: "Solutions", overview: "Security solutions", overviewShort: "Full range",
+    showroom: "Showroom", contact: "Contact us", call: "Call",
+    footerAbout: "Distribution and integration of electronic security solutions in Mauritania.",
+    footerContact: "Contact", rights: "All rights reserved.", location: "Nouakchott · Mauritania",
+    discover: "Learn more", allRange: "Full range", otherSolutions: "Our other solutions",
+    keyPoints: "Key points", requestQuote: "Request a quote", solution: "Solution",
+    newTab: "(opens in a new tab)", directions: "Directions", openMaps: "Open in Google Maps",
+    address: "Address", phone: "Phone", tapToCall: "Tap to call",
+    mapTitle: "Map: HISEC, Zone des Ambassades, Nouakchott",
+    wallLabel: "Overview of our solutions", statusLabel: "HISEC at a glance",
+    showroomCam: "Zone des Ambassades",
+    cam3dLabel: "3D HISEC surveillance camera that follows your pointer",
+    cam3dLoading: "Connecting to camera…",
+  },
+
+  address: { line1: "Lot 11, Zone des Ambassades", line2: "Tevragh-Zeïna, Nouakchott", country: "Mauritania" },
+
+  band: {
+    eyebrow: "A security project?",
+    title: "Let's talk about your site.",
+    text: "Tell us about the place you need to protect: we'll point you to the right solution and prepare your quote.",
+    callUs: "Call us",
+    visit: "Visit the showroom",
+  },
+
+  home: {
+    title: "HISEC | Electronic security in Nouakchott, Mauritania",
+    desc: "HISEC distributes and integrates video surveillance, access control, intrusion and fire detection systems in Mauritania, with nearly 13 years of experience.",
+    eyebrow: "Nouakchott · Mauritania",
+    h1: ["Electronic security", "systems, from the door", "*to the perimeter.*"],
+    lead: "HISEC distributes and integrates video surveillance, access control, intrusion and fire detection, from private homes to high-security sites.",
+    cta: "See our solutions",
+    status: [
+      `<strong><span data-count="13">13</span> years</strong> of experience`,
+      `<strong>Leader</strong> in security in Mauritania`,
+      `<strong><span data-count="7">7</span> product lines</strong>`,
+      `<strong>Showroom</strong> Zone des Ambassades`,
+    ],
+    aboutEyebrow: "About us",
+    statement: "HISEC specialises in the *distribution and integration* of electronic security solutions.",
+    about: [
+      "Access control, video surveillance, intrusion and fire detection: with nearly 13 years of experience, HISEC is the market leader in security in Mauritania.",
+      "All our solutions are designed for your convenience and your safety.",
+    ],
+    qualities: ["Versatile", "Highly reliable", "Cost-effective"],
+    solEyebrow: "Security solutions",
+    solTitle: "Seven product lines to protect people, property and buildings",
+    scHint: "Scroll to discover",
+    scLabel: "3D showcase of our seven product lines",
+    showEyebrow: "Showroom",
+    showTitle: "See our equipment in our showroom",
+    showText: "Our showroom in Tevragh-Zeïna displays our video surveillance, access control, intrusion and fire ranges. Our team will welcome you there to discuss your project.",
+    showAlt: "Front of the HISEC High Security building, Zone des Ambassades, Nouakchott",
+    showLink: "Map and directions",
+  },
+
+  overview: {
+    title: "Security solutions | HISEC",
+    desc: "All HISEC electronic security solutions: fire safety, intercom, video surveillance, access control, cabling, intrusion detection and high security.",
+    h1: ["A complete range,", "*one point of contact.*"],
+    lead: "HISEC specialises in the distribution and integration of electronic security solutions. Our systems are versatile, highly reliable and cost-effective.",
+  },
+
+  showroom: {
+    title: "Showroom | HISEC Nouakchott",
+    desc: "Visit the HISEC showroom at Lot 11, Zone des Ambassades, Tevragh-Zeïna, Nouakchott. Tel. +222 45 25 56 90.",
+    h1: ["Our equipment,", "*up close.*"],
+    lead: "Come and discover our ranges at our showroom in the Zone des Ambassades and talk to our team about your project.",
+    camLabel: "Tevragh-Zeïna",
+  },
+
+  contact: {
+    title: "Contact us | HISEC",
+    desc: "Contact HISEC for a quote or a visit: +222 45 25 56 90, Lot 11, Zone des Ambassades, Tevragh-Zeïna, Nouakchott.",
+    h1: ["Let's talk about", "*your site's security.*"],
+    lead: "Call us for a quote, advice or a technical visit, or drop by the showroom.",
+    prepTitle: "For a faster quote, tell us:",
+    prep: [
+      "the type of site (home, offices, warehouse, industrial site…)",
+      "the solution(s) you're interested in",
+      "the approximate number of cameras, doors or zones",
+      "any equipment already in place",
+    ],
+  },
+
+  notFound: {
+    title: "Page not found | HISEC",
+    desc: "This page doesn't exist or has moved.",
+    eyebrow: "Error 404 · Signal lost",
+    h1: ["This page can't be found."],
+    lead: "It may have moved. Start again from the home page or browse our solutions.",
+    back: "Back to home",
+    see: "See our solutions",
+  },
+
+  solutions: {
+    incendie: {
+      name: "Fire safety", h1: "Fire safety",
+      short: "Certified detection, from Category 1 SSI to DAAF smoke alarms.",
+      desc: "Certified fire detection products, from Category 1 fire safety systems (SSI) to standalone smoke alarms (DAAF), energy-efficient and easy to install.",
+      lead: "HISEC guarantees certified fire detection products that are effective, durable and easy to integrate, from Category 1 fire safety systems (SSI) to standalone smoke alarms (DAAF).",
+      paras: [
+        "Our products are economical in energy and raw materials, significantly reducing the environmental impact of the range, and therefore of your installations.",
+        "The simplicity and technical quality of our products make them easy to install with minimal resources.",
+      ],
+      points: ["Certified detection products", "From Category 1 SSI to DAAF", "Low energy and raw-material use", "Simple installation, minimal resources"],
+      alt: "Red manual fire alarm call point in front of a fire",
+    },
+    interphonie: {
+      name: "Intercom", h1: "Intercom systems",
+      short: "Indoor monitors for homes, businesses and residential communities.",
+      desc: "Video intercom for homes, businesses and communities, compatible with PIR motion detectors, smoke detectors and panic buttons.",
+      lead: "The solution consists of indoor monitors suited to many types of applications, from homes and businesses to residential communities.",
+      paras: ["Its many features allow it to be integrated with PIR motion detectors, smoke detectors, door and window sensors and panic buttons."],
+      points: ["Homes, businesses and communities", "PIR motion detector integration", "Smoke, door and window detectors", "Panic buttons"],
+      alt: "Outdoor video door station and indoor monitor",
+    },
+    video: {
+      name: "Video surveillance", h1: "Video surveillance systems",
+      short: "Cameras, IP and analogue domes, recorders and scene analysis.",
+      desc: "Cameras, IP and analogue domes, digital and network video recorders, scene analysis and video management.",
+      lead: "The reliability and integrity of our video systems let you address your current and future security challenges with confidence.",
+      paras: [
+        "Our solutions include cameras, IP and analogue domes, digital and network video recorders, scene analysis software and advanced video management systems.",
+        "We use the latest digital video surveillance technology. Our cameras deliver exceptional image clarity and definition, and our systems make it easy to migrate from analogue to IP.",
+      ],
+      points: ["IP or analogue cameras and domes", "Digital and network video recorders", "Scene analysis software", "Easy migration from analogue to IP"],
+      alt: "Surveillance cameras in front of an industrial facility shown in thermal imaging",
+    },
+    acces: {
+      name: "Access control", h1: "Access control systems",
+      short: "From a single door to thousands of access points, on one site or many.",
+      desc: "From single-door access control to integrated systems managing thousands of doors and detection points.",
+      lead: "Our range covers everything from single-door access control and standalone web-hosted access control to integrated systems able to manage thousands of doors and detection points worldwide.",
+      paras: [],
+      points: ["Single-door access control", "Standalone web-hosted access control", "Integrated multi-site systems", "Thousands of doors and detection points"],
+      alt: "Hand entering a code on a door access keypad",
+    },
+    cables: {
+      name: "Cables and accessories", h1: "Cables and accessories",
+      short: "Reliable cables, connectors and conversion electronics.",
+      desc: "Cables, connectors and conversion electronics so that wiring is never the weak link in your installations.",
+      lead: "Responsiveness, technical expertise and loyalty are our company values. We bring them to our products too, with a transparent and constantly evolving offer, so that cables, connectors and conversion electronics are no longer the weak links in your installations.",
+      paras: [],
+      points: ["Cables", "Connectors", "Conversion electronics", "A transparent, constantly evolving range"],
+      alt: "Bundle of multicoloured electrical cables",
+    },
+    intrusion: {
+      name: "Intrusion detection", h1: "Intrusion detection",
+      short: "Alarms, control panels and perimeter detection, wired or wireless.",
+      desc: "Intruder alarms, control panels, detectors and perimeter detection, in wired, wireless or hybrid versions.",
+      lead: "Our systems use the latest technologies: intruder alarm systems, alarm control panels, motion detectors, and fully integrated intrusion and access control solutions.",
+      paras: [
+        "They also include environmental and personal protection devices and perimeter detection products, including glass-break, seismic and shock detectors.",
+        "Some of our systems are modular and offer different communication options, so you can adapt them to your exact needs. You can choose between wired, wireless or hybrid solutions. We have developed reliable wireless products designed for remote monitoring, as well as flexible hybrid alarm panels.",
+      ],
+      points: ["Alarm systems and control panels", "Motion, glass-break, seismic and shock detectors", "Wired, wireless or hybrid solutions", "Wireless products designed for remote monitoring"],
+      alt: "Alarm control panels and intrusion detectors in front of a shopping arcade",
+    },
+    haute: {
+      name: "High security", h1: "High security",
+      short: "Barriers, bollards and retractable obstacles for sensitive sites.",
+      desc: "Security barriers, bollards and retractable obstacles for military, industrial and government sites.",
+      lead: "Some sites, such as military, industrial or government facilities, require a higher level of security.",
+      paras: ["To meet these requirements, HISEC offers security barriers and a range of bollards and retractable obstacles that can seal off a site completely while selectively allowing certain vehicles through."],
+      points: ["Security barriers", "Bollards and retractable obstacles", "Selective vehicle access", "Military, industrial and government sites"],
+      alt: "Lifting barriers, turnstiles and security airlocks",
+    },
+  },
+};

@@ -1,0 +1,16 @@
+Déposez ici les photos du site (JPG). Noms attendus :
+
+  incendie.jpg            déclencheur manuel d'alarme incendie   (Accueil, Sécurité incendie)
+  interphonie.jpg         portier vidéo + moniteur               (Interphonie)
+  videosurveillance.jpg   caméras bullet / image thermique       (Accueil, Vidéosurveillance)
+  controle-acces.jpg      clavier à code sur porte               (Accueil, Contrôle d'accès)
+  cables.jpg              faisceau de câbles colorés             (Câbles et accessoires)
+  intrusion.jpg           gamme alarmes / détecteurs             (Accueil, Intrusion)
+  haute-securite.jpg      barrières, tourniquets, bornes         (Haute sécurité)
+  showroom.jpg            façade du bâtiment HISEC               (Accueil, ShowRoom)
+
+Les photos s'affichent dans un cadre « caméra » : elles sont recadrées
+automatiquement (object-fit: cover), donc n'importe quel format convient.
+
+Tant qu'une photo manque, un écran gris avec une icône s'affiche à la place.
+Taille conseillée : 1600 px de large, moins de 300 Ko (JPG qualité ~75 ou WebP).
